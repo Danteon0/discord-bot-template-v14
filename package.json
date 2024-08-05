@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot-template-v14",
+  "version": "1.0.0",
+  "description": "Discord slash commands bot template for discord.js v14",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danteon0/discord-bot-template-v14.git"
+  },
+  "author": "Danteon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danteon0/discord-bot-template-v14/issues"
+  },
+  "homepage": "https://github.com/Danteon0/discord-bot-template-v14#readme",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
