@@ -48,7 +48,13 @@ This project is a bot infrastructure prepared using version 14 of the Discord.js
     }
     ```
 
-4. Start the bot:
+4. Upload slash commands to discord:
+
+    ```bash
+    node deploy-commands.js
+    ```
+
+5. Start the bot:
 
     ```bash
     node main.js
