@@ -4,7 +4,7 @@ First of all, thank you for considering contributing to this project! Your help 
 
 ## ✒️ Code of Conduct
 
-By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md).
+By participating in this project, you agree to abide by our [Code of Conduct](code_of_conduct.md).
 
 ## ✒️ How to Contribute
 

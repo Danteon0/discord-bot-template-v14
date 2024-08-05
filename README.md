@@ -61,7 +61,7 @@ This project is a bot infrastructure prepared using version 14 of the Discord.js
 
 ## 🤝 Contribution
 
-We welcome contributions! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file before contributing.
+We welcome contributions! Please read the [CONTRIBUTING.md](contributing.md) file before contributing.
 
 ## 📜 License
 
