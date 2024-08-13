@@ -42,9 +42,9 @@ This project is a bot infrastructure prepared using version 14 of the Discord.js
 
     ```json
     {  
-      "author": ["AUTHOR_ID"], // Your Discord profile ID
-      "token": "BOT_TOKEN", // Your bot token
-      "clientId": "CLIENT_ID" // Your bot ID
+      "author": ["AUTHOR_ID"],
+      "token": "BOT_TOKEN",
+      "clientId": "CLIENT_ID"
     }
     ```
 
