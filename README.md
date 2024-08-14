@@ -119,6 +119,6 @@ If you need help or have any questions, feel free to reach out:
 
 - **Join our Discord server:** [Join here](https://discord.com/invite/eWcNKXmsgw)
 - **Visit our website:** [emirhankaya.net](https://emirhankaya.net)
-- **Follow on Twitter:** [EmirhanKaya_41](https://x.com/EmirhanKaya_41)
+- **Follow on Twitter:** [Danteon0](https://x.com/Danteon0)
 
 By following these detailed instructions, you can set up your own Discord bot using this infrastructure. Enjoy building your bot!
