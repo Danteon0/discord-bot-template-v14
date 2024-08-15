@@ -12,12 +12,19 @@ module.exports = {
             status: 'online',
         });
 
-        // Discord Activity types
+        //* Discord Activity Types!
         //
         // Listening => Listening to {name}
         // Playing => Playing {name}
         // Streaming => Streaming {name}
         // Watching => Watching {name}
+
+        //* Dİscord Bot Status Types!
+        //
+        // Idle
+        // Online
+        // Offline
+        // Dnd
 
     },
 }; // Made by Danteon0 | github.com/Danteon0 <3
