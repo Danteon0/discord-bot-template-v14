@@ -8,7 +8,7 @@
   <a href="https://x.com/Danteon0" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="X" />
   </a>
-</p>
+</p> 
 
 # Code of Conduct
 

@@ -13,4 +13,4 @@ module.exports = {
         });
 
     },
-};
+}; // Made by Danteon0 | github.com/Danteon0 <3

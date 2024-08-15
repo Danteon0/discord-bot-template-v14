@@ -20,4 +20,4 @@ module.exports = {
 
     await interaction.reply({ embeds: [embed] });
   },
-};
+}; // Made by Danteon0 | github.com/Danteon0 <3
