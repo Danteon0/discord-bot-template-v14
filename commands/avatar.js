@@ -4,10 +4,10 @@ const config = require('../config.json');
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('avatar')
-    .setDescription('Belirtilen kullanıcının veya sizin avatarınızı gösterir.')
+    .setDescription('Shows the avatar of the specified user or you.')
     .addUserOption(option => 
       option.setName('kullanıcı')
-        .setDescription('Avatarını görmek istediğiniz kullanıcı')
+        .setDescription('The user whose avatar you want to see')
     ),
   async execute(interaction) {
     const user = interaction.options.getUser('user') || interaction.user;
