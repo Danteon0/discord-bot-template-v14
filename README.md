@@ -42,9 +42,10 @@ This project is a bot infrastructure prepared using version 14 of the Discord.js
 
     ```json
     {  
-      "author": ["AUTHOR_ID"],
-      "token": "BOT_TOKEN",
-      "clientId": "CLIENT_ID"
+      "author": ["AUTHOR_ID"], // Your discord client ID
+      "token": "BOT_TOKEN", // Bot token
+      "clientId": "CLIENT_ID", // Bot client ID
+      "embedcolor": "#5865f2" // Embed color for manage embed colors one line
     }
     ```
 

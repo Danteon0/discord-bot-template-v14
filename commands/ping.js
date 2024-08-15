@@ -1,4 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const config = require('../config.json');
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -8,7 +9,7 @@ module.exports = {
     const sent = await interaction.reply({ content: 'Pinging...', fetchReply: true });
 
     const embed = new EmbedBuilder()
-      .setColor(0x0099FF)
+      .setColor(config.embedcolor)
       .setTitle('Pong!')
       .setDescription(`🏓 Latency is ${sent.createdTimestamp - interaction.createdTimestamp}ms\n
       📡 API Latency is ${Math.round(interaction.client.ws.ping)}ms`)
