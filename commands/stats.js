@@ -12,10 +12,10 @@ module.exports = {
         const uptime = moment.duration(interaction.client.uptime).format("D [days], H [hours], m [minutes], s [seconds]");
         const statistics = new EmbedBuilder()
             .setColor(config.embedcolor)
-            .setFooter({ text: 'Saturn Bot Statistics', iconURL: interaction.client.user.avatarURL() })
+            .setFooter({ text: 'Your Bot Statistics', iconURL: interaction.client.user.avatarURL() })
             .addFields(
-                { name: "» **Bot Owner**", value: "<@496393095282294796> | Saturn Bot", inline: false },
-                { name: "» **Developer**", value: "<@496393095282294796>", inline: false },
+                { name: "» **Bot Owner**", value: "<@AUTHOR_ID> | Your Bot", inline: false },
+                { name: "» **Developer**", value: "<@AUTHOR_ID>", inline: false },
                 { name: "» **Memory Usage**", value: `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB`, inline: true },
                 { name: "» **Uptime**", value: `${uptime}`, inline: false },
                 { name: "» **Users**", value: `${interaction.client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}`, inline: true },
