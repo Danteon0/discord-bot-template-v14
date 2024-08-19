@@ -17,4 +17,4 @@ module.exports = {
 
     await interaction.editReply({ content: null, embeds: [embed] });
   },
-}; // Made by Danteon0 | github.com/Danteon0 <3
+}; // Made by Danteon | github.com/Danteon0 <3

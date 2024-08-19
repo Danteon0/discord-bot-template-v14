@@ -27,4 +27,4 @@ module.exports = {
         // Dnd
 
     },
-}; // Made by Danteon0 | github.com/Danteon0 <3
+}; // Made by Danteon | github.com/Danteon0 <3

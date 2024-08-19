@@ -28,4 +28,4 @@ const rest = new REST({ version: '10' }).setToken(config.token);
     console.error(error);
   }
 })();
-// Made by Danteon0 | github.com/Danteon0 <3
+// Made by Danteon | github.com/Danteon0 <3

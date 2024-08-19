@@ -13,7 +13,7 @@ for (const file of commandFiles) {
   client.commands.set(command.data.name, command);
 }
 
-// Made by Danteon0 | github.com/Danteon0 <3
+// Made by Danteon | github.com/Danteon0 <3
 
 //! Event handler
 const eventFiles = fs.readdirSync('./events').filter(file => file.endsWith('.js'));
@@ -42,4 +42,4 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-client.login(config.token); // Made by Danteon0 | github.com/Danteon0 <3
+client.login(config.token); // Made by Danteon | github.com/Danteon0 <3
