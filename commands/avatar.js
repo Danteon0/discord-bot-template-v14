@@ -6,7 +6,7 @@ module.exports = {
     .setName('avatar')
     .setDescription('Shows the avatar of the specified user or you.')
     .addUserOption(option => 
-      option.setName('kullanıcı')
+      option.setName('user')
         .setDescription('The user whose avatar you want to see')
     ),
   async execute(interaction) {
